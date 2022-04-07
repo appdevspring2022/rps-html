@@ -4,29 +4,42 @@
     <title>You played rock!</title>
     <meta charset="utf-8">
     <style>
-    a {
+    .btn {
       color: teal; 
       border: 1px teal solid;
       padding: 5px 15px 5px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .player-card {
+      border: thin green 1px solid;
+      width: 49%;
     }
     </style>
   </head>
 
   <body>
     <div>
-      <a href="/rock">Play Rock</a>
+      <a href="/rock" class="btn">Play Rock</a>
     </div>
   
     <div>
-      <a href="/paper">Play Paper</a>
+      <a href="/paper" class="btn">Play Paper</a>
     </div>
   
     <div>
-      <a href="/scissors">Play Scissors</a>
+      <a href="/scissors" class="btn">Play Scissors</a>
     </div>
 
-    <h2>We played rock!</h2> 
-    <h2>They played paper!</h2> 
+    <div class="player-card">
+      <h2>We played rock!</h2> 
+    </div>
+
+    <div class="computer-card">
+      <h2>They played paper!</h2> 
+    </div>
+
     <h2>We lost!</h2>
     <div>
       <a href="/">Rules</a>
