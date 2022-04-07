@@ -1,0 +1,33 @@
+body {
+  font-family: 'Abril Fatface', cursive;;
+}
+
+.btn {
+color: teal; 
+border: 1px teal solid;
+padding: 5px 15px 5px 15px;
+text-decoration: none;
+border-radius: 5px;
+text-align: center;
+width: 100%;
+display: inline-block;
+}
+
+.player {
+border: thin green solid;
+width: 49%;
+}
+
+.computer {
+border: thin rgb(174, 38, 38) solid;
+width: 49%;
+}
+
+.row {
+display: flex;
+justify-content: space-between;
+}
+
+.mb {
+  margin-bottom: 10px;
+}

@@ -3,23 +3,14 @@
   <head>
     <title>You played rock!</title>
     <meta charset="utf-8">
-    <style>
-    .btn {
-      color: teal; 
-      border: 1px teal solid;
-      padding: 5px 15px 5px 15px;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .player-card {
-      border: thin green 1px solid;
-      width: 49%;
-    }
-    </style>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   </head>
 
   <body>
+    <div class="row mb">
     <div>
       <a href="/rock" class="btn">Play Rock</a>
     </div>
@@ -31,13 +22,16 @@
     <div>
       <a href="/scissors" class="btn">Play Scissors</a>
     </div>
+    </div>
 
-    <div class="player-card">
+    <div class="row mb">
+    <div class="player">
       <h2>We played rock!</h2> 
     </div>
 
-    <div class="computer-card">
+    <div class="computer">
       <h2>They played paper!</h2> 
+    </div>
     </div>
 
     <h2>We lost!</h2>
